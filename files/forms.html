@@ -6,5 +6,60 @@
 </head>
 <body>
 
+<form>
+
+
+    <p>
+
+        <span style="color: crimson">Username:</span>
+        <input  type="text" name="Username" placeholder="Type your username">
+
+    </p>
+    <p>
+        <span style="color:crimson">Password:</span>
+        <input type="password" placeholder="Type your password" >
+    </p>
+    <p>
+        What did you think of this trip?
+    </p>
+    <textarea cols="30" rows="7"placeholder= "Enter text comment "></textarea>
+    <br>
+    <p>Please Select your favorite food:</p>
+
+    <input type="radio" name="food" value="burger">Burger
+    <input type="radio" name="food" value="kabab">Kabab
+    <input type="radio" name="food" value="salad"checked>Salad
+    <br><br>
+    <input type="date"><br><br>
+    <input type="datetime-local"><br><br>
+    <p>Please upload your resume:</p>
+    <input type="file">
+    <br>
+    <p>
+        Please select your favorite course(s)
+    </p>
+    <label for="java">Java
+        <input type="checkbox" name="course" value= "java" id="java">
+    </label>
+
+    <input type="checkbox" name="course" value= "DS">DS
+    <input type="checkbox" name="course" value= "python">Python
+    <input type="checkbox" name="course" value= "UI">UI
+    <label for="s">Soft Skil
+        <input type="checkbox" name="course" value= "softSkill" id="s">
+    </label>
+        <p> Please select the course:</p>
+    <select name="course">
+        <option value="" disabled selected >Select a course</option>
+        <option value="jd" >Java Developer</option>
+        <option value="sdet"  >Java SDET</option>
+        <option value="cs"  >Cyber Security</option>
+    </select>
+
+
+
+
+
+</form>
 </body>
 </html>
